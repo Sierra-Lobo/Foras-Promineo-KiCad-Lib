@@ -1,6 +1,6 @@
 (footprint "J-MOLEX-SMPM-073300-003X" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 631F5D13)
+  (tedit 631FB66C)
   (fp_text reference "REF**" (at 2.953 5.877) (layer "F.SilkS")
     (effects (font (size 0.508 0.508) (thickness 0.127)) (justify left bottom))
     (tstamp 6d88cbf0-5e88-4e78-938c-39e2d6757d2d)
@@ -97,4 +97,9 @@
     (solder_mask_margin 0.0635) (zone_connect 2) (tstamp c2b97455-a1ca-48ee-9f4f-3779590ad446))
   (pad "RF" smd rect (at 0 5.08) (size 0.762 1.778) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.0635) (zone_connect 2) (tstamp 9a970329-4b6b-47f6-be92-bffc86109e68))
+  (model ":Foras Promineo Github 3D Model:3D Models/733000030.stp"
+    (offset (xyz 0 0 0.254))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
